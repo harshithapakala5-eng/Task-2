@@ -1,0 +1,40 @@
+# Verilog HDL Project Report
+
+## Design Logic
+
+### Logic Gates
+
+The logic gates module was designed using Verilog HDL. The implemented gates include AND, OR, NOT, NAND, NOR, XOR, and XNOR. Logical operators were used to generate outputs based on the input combinations.
+
+### Half Adder
+
+The half adder was designed to perform single-bit binary addition.
+
+* SUM output was generated using XOR operation.
+* CARRY output was generated using AND operation.
+
+### Full Adder
+
+The full adder was designed to add three binary inputs: A, B, and Carry-In (CIN).
+
+* SUM output was generated using XOR operations.
+* Carry-Out (COUT) was generated using AND and OR operations.
+
+---
+
+# Simulation Results
+
+Testbenches were created for all modules to verify functionality. Different input combinations were applied, and the outputs were observed using waveform simulation.
+
+## Observations
+
+* Outputs matched the expected truth tables.
+* Correct waveforms were generated for all input combinations.
+* No unknown (X) states were observed during simulation.
+* The design worked successfully in RTL simulation.
+
+---
+
+# Conclusion
+
+The project successfully implemented and simulated basic logic gates, half adder, and full adder using Verilog HDL. The simulation results verified the correctness of the designs and improved understanding of combinational circuit design and testbench creation.
